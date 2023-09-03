@@ -1,3 +1,15 @@
 <template>
-  <h1 class="">Hello world!</h1>
+  <div>
+    <NuxtLayout :name="layout">
+      <NuxtLoadingIndicator />
+      <NuxtPage />
+    </NuxtLayout>
+    <slot />
+  </div>
 </template>
+
+<script>
+  export default {};
+</script>
+
+<style lang="scss" scoped></style>
