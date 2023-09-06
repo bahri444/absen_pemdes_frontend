@@ -116,7 +116,7 @@
 <script>
   import axios from "axios";
 
-  const urlapi = "http://127.0.0.1:8000";
+  const urlapi = "https://absenpemdes.ukmtechcode.com";
   export default {
     name: "update pegawai",
     data() {

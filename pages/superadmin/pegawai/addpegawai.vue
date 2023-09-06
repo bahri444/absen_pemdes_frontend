@@ -235,7 +235,10 @@
       },
       SaveData() {
         axios
-          .post("http://127.0.0.1:8000/api/addnewpegawai", this.employes)
+          .post(
+            "https://absenpemdes.ukmtechcode.com/api/addnewpegawai",
+            this.employes
+          )
           .then((res) => {
             console.log(res.data.success);
             alert("data pegawai berhasil di tambahkan");
